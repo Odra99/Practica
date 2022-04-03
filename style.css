@@ -1,0 +1,61 @@
+html{
+   height: 100%;
+}
+
+.body-style{
+    height: 100%;
+    background-color: #9eeadc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span{
+    position: absolute;
+    margin-right: 5px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+  }
+  input{
+    padding-left: 25px;
+    height: 20px;
+  }
+
+
+.main-container{
+   background: #fff;
+   height: 60%;
+   width: 65%;
+   overflow: hidden;
+   z-index: 1;
+}
+
+.shape-1{
+   width: 100vh;
+   height: 100vh;
+   background: #4ed8bf;
+   border-radius: 10%;
+   position: inherit;
+   transform: rotate(42deg) translate(-24rem,15rem);
+}
+
+.shape-2{
+    width: 55%;
+    height: 100%;
+    background: #2f7c6e57;
+    position: absolute;
+    z-index: 2;
+    transform: rotate(-28deg) translate(-29.5rem,-20rem);
+    border-radius: 10%;
+}
+
+.login{padding: 5%;}
+
+.login h1{
+    
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align-last: center;
+}
+
